@@ -1,0 +1,19 @@
+#{$skipToMainContent} {
+    top: 0;
+    background: #fdfdfd;
+    color: var(--lightGrayColor);
+    padding: 20px 0;
+    transform: translateY(-50px);
+    opacity: 0;
+    z-index: 999999;
+
+    &__link {
+        padding: 10px;
+        color: #065b51;
+    }
+
+    &:focus-within {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

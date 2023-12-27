@@ -1,0 +1,1825 @@
+{
+  "ftp://wilmeddev@master.proudhost.eu:21": {
+    ".cagefs": {},
+    ".cl.selector": {},
+    ".htaccess": {
+      "type": "-",
+      "size": 1792,
+      "lmtime": 0,
+      "modified": true
+    },
+    ".htaccess.bk": {
+      "type": "-",
+      "size": 304,
+      "lmtime": 0,
+      "modified": false
+    },
+    "chirurgia-reki": {},
+    "chirurgiareki": {},
+    "ginekomastia": {},
+    "index.php": {
+      "type": "-",
+      "size": 405,
+      "lmtime": 0,
+      "modified": false
+    },
+    "license.txt": {
+      "type": "-",
+      "size": 19915,
+      "lmtime": 0,
+      "modified": false
+    },
+    "ofertawynajmu": {
+      "index.php": {
+        "type": "-",
+        "size": 6058,
+        "lmtime": 0,
+        "modified": false
+      }
+    },
+    "plastyki": {},
+    "problemyproktologiczne": {},
+    "przepukliny": {},
+    "readme.html": {
+      "type": "-",
+      "size": 7399,
+      "lmtime": 0,
+      "modified": false
+    },
+    "rekonstrukcja-piersi-po-mastektomii": {},
+    "venaseal": {},
+    "wazektomia": {},
+    "wp-activate.php": {
+      "type": "-",
+      "size": 7211,
+      "lmtime": 0,
+      "modified": false
+    },
+    "wp-admin": {},
+    "wp-blog-header.php": {
+      "type": "-",
+      "size": 351,
+      "lmtime": 0,
+      "modified": false
+    },
+    "wp-comments-post.php": {
+      "type": "-",
+      "size": 2323,
+      "lmtime": 0,
+      "modified": false
+    },
+    "wp-config-sample.php": {
+      "type": "-",
+      "size": 3013,
+      "lmtime": 0,
+      "modified": false
+    },
+    "wp-config.php": {
+      "type": "-",
+      "size": 3294,
+      "lmtime": 0,
+      "modified": true
+    },
+    "wp-content": {
+      "ai1wm-backups": {},
+      "index.php": {
+        "type": "-",
+        "size": 28,
+        "lmtime": 0,
+        "modified": false
+      },
+      "languages": {},
+      "maintenance": {},
+      "plugins": {},
+      "themes": {
+        ".cagefs": {},
+        ".cl.selector": {},
+        "index.php": {
+          "type": "-",
+          "size": 28,
+          "lmtime": 0,
+          "modified": false
+        },
+        "rekurencja-theme": {
+          "404.php": {
+            "type": "-",
+            "size": 1222,
+            "lmtime": 1703100172176.9404,
+            "modified": false
+          },
+          "Chirurgia ogólna.ini": {
+            "type": "-",
+            "size": 3043,
+            "lmtime": 1703100172176.9404,
+            "modified": false
+          },
+          "assets": {
+            "bundle": {
+              "async.b.min.js": {
+                "type": "-",
+                "size": 10574,
+                "lmtime": 1703099856618.4524,
+                "modified": false
+              },
+              "critical.b.min.js": {
+                "type": "-",
+                "size": 424,
+                "lmtime": 1703099856618.4524,
+                "modified": false
+              },
+              "defer.b.min.js": {
+                "type": "-",
+                "size": 88507,
+                "lmtime": 1703099856619.454,
+                "modified": false
+              }
+            },
+            "css": {
+              "admin.css": {
+                "type": "-",
+                "size": 181,
+                "lmtime": 1703101539982.9756,
+                "modified": false
+              },
+              "admin.css.map": {
+                "type": "-",
+                "size": 158,
+                "lmtime": 1703101539982.9756,
+                "modified": false
+              },
+              "admin_wysiwyg.css": {
+                "type": "-",
+                "size": 46,
+                "lmtime": 1703101539993.9768,
+                "modified": false
+              },
+              "admin_wysiwyg.css.map": {
+                "type": "-",
+                "size": 94,
+                "lmtime": 1703101539992.976,
+                "modified": false
+              },
+              "critical.css": {
+                "type": "-",
+                "size": 28247,
+                "lmtime": 1703102153766.7666,
+                "modified": false
+              },
+              "critical.css.map": {
+                "type": "-",
+                "size": 8921,
+                "lmtime": 1703102153766.7666,
+                "modified": false
+              },
+              "normalize-css-8.0.1": {
+                "normalize-rekurencja.css": {
+                  "type": "-",
+                  "size": 5957,
+                  "lmtime": 1701881029000,
+                  "modified": false
+                },
+                "normalize-rekurencja.min.css": {
+                  "type": "-",
+                  "size": 1559,
+                  "lmtime": 1701881029000,
+                  "modified": false
+                },
+                "normalize.css": {
+                  "type": "-",
+                  "size": 6225,
+                  "lmtime": 1701881029000,
+                  "modified": false
+                },
+                "normalize.min.css": {
+                  "type": "-",
+                  "size": 1611,
+                  "lmtime": 1701881029000,
+                  "modified": false
+                }
+              },
+              "style.css": {
+                "type": "-",
+                "size": 12306,
+                "lmtime": 1703101540433.978,
+                "modified": false
+              },
+              "style.css.map": {
+                "type": "-",
+                "size": 2557,
+                "lmtime": 1703101540432.9768,
+                "modified": false
+              }
+            },
+            "favicon": {
+              "favicon.ico": {
+                "type": "-",
+                "size": 4286,
+                "lmtime": 1703099856619.454,
+                "modified": false
+              },
+              "icon-192.png": {
+                "type": "-",
+                "size": 3256,
+                "lmtime": 1703099856620.4521,
+                "modified": false
+              },
+              "icon-512.png": {
+                "type": "-",
+                "size": 8040,
+                "lmtime": 1703099856620.4521,
+                "modified": false
+              },
+              "icon.svg": {
+                "type": "-",
+                "size": 866,
+                "lmtime": 1703099856620.4521,
+                "modified": false
+              },
+              "site.webmanifest": {
+                "type": "-",
+                "size": 384,
+                "lmtime": 1703099856620.4521,
+                "modified": false
+              }
+            },
+            "fonts": {
+              "GeneralSans-Bold.woff2": {
+                "type": "-",
+                "size": 21180,
+                "lmtime": 1703099856621.4524,
+                "modified": false
+              },
+              "GeneralSans-Medium.woff2": {
+                "type": "-",
+                "size": 22904,
+                "lmtime": 1703099856621.4524,
+                "modified": false
+              },
+              "GeneralSans-Regular.woff2": {
+                "type": "-",
+                "size": 23084,
+                "lmtime": 1703099856622.4512,
+                "modified": false
+              },
+              "Spartan-Bold.ttf": {
+                "type": "-",
+                "size": 63120,
+                "lmtime": 1703099856623.4512,
+                "modified": false
+              },
+              "Spartan-Medium.ttf": {
+                "type": "-",
+                "size": 65552,
+                "lmtime": 1703099856624.4514,
+                "modified": false
+              },
+              "Spartan-Regular.ttf": {
+                "type": "-",
+                "size": 64308,
+                "lmtime": 1703099856624.4514,
+                "modified": false
+              },
+              "SpartanBold-700.ttf": {
+                "type": "-",
+                "size": 38408,
+                "lmtime": 1703099856625.4512,
+                "modified": false
+              },
+              "SpartanMedium-500.ttf": {
+                "type": "-",
+                "size": 38320,
+                "lmtime": 1703099856626.4558,
+                "modified": false
+              },
+              "SpartanRegular-400.ttf": {
+                "type": "-",
+                "size": 38368,
+                "lmtime": 1703099856626.4558,
+                "modified": false
+              }
+            },
+            "glightbox-3.2.0": {
+              "glightbox.css": {
+                "type": "-",
+                "size": 20185,
+                "lmtime": 0,
+                "modified": false
+              },
+              "glightbox.min.css": {
+                "type": "-",
+                "size": 13749,
+                "lmtime": 0,
+                "modified": false
+              },
+              "glightbox.min.js": {
+                "type": "-",
+                "size": 55880,
+                "lmtime": 1703099856627.4526,
+                "modified": false
+              }
+            },
+            "img": {
+              ".DS_Store": {
+                "type": "-",
+                "size": 6148,
+                "lmtime": 1702385575559.9377,
+                "modified": false
+              },
+              "background.svg": {
+                "type": "-",
+                "size": 378410,
+                "lmtime": 1703102350653.0144,
+                "modified": false
+              },
+              "loader.gif": {
+                "type": "-",
+                "size": 72191,
+                "lmtime": 1703099856628.451,
+                "modified": false
+              },
+              "logo.png": {
+                "type": "-",
+                "size": 17928,
+                "lmtime": 1703099856628.451,
+                "modified": false
+              },
+              "logo.svg": {
+                "type": "-",
+                "size": 8024,
+                "lmtime": 1703099856628.451,
+                "modified": false
+              }
+            },
+            "js": {
+              "apply-style.js": {
+                "type": "-",
+                "size": 1328,
+                "lmtime": 1703099856629.4514,
+                "modified": false
+              },
+              "apply-style.min.js": {
+                "type": "-",
+                "size": 680,
+                "lmtime": 1703100172177.939,
+                "modified": false
+              },
+              "cookieConsentBar.js": {
+                "type": "-",
+                "size": 2930,
+                "lmtime": 1703100172177.939,
+                "modified": false
+              },
+              "cookieConsentBar.min.js": {
+                "type": "-",
+                "size": 1506,
+                "lmtime": 1703099856629.4514,
+                "modified": false
+              },
+              "custom-style-selector.js": {
+                "type": "-",
+                "size": 828,
+                "lmtime": 1703099856630.4507,
+                "modified": true
+              },
+              "custom-style-selector.min.js": {
+                "type": "-",
+                "size": 495,
+                "lmtime": 1703100172177.939,
+                "modified": false
+              },
+              "custom-tinymce-text.js": {
+                "type": "-",
+                "size": 3247,
+                "lmtime": 1703099856641.4524,
+                "modified": true
+              },
+              "custom-tinymce-text.min.js": {
+                "type": "-",
+                "size": 853,
+                "lmtime": 1703100172178.942,
+                "modified": false
+              },
+              "custom-tinymce-visual.js": {
+                "type": "-",
+                "size": 1169,
+                "lmtime": 1703099856650.452,
+                "modified": true
+              },
+              "custom-tinymce-visual.min.js": {
+                "type": "-",
+                "size": 656,
+                "lmtime": 1703100172178.942,
+                "modified": false
+              },
+              "getScrollbarWidth.js": {
+                "type": "-",
+                "size": 807,
+                "lmtime": 1703099856656.4517,
+                "modified": true
+              },
+              "getScrollbarWidth.min.js": {
+                "type": "-",
+                "size": 357,
+                "lmtime": 1703099856656.4517,
+                "modified": false
+              },
+              "menuHamburger.js": {
+                "type": "-",
+                "size": 791,
+                "lmtime": 1703100172178.942,
+                "modified": false
+              },
+              "menuHamburger.min.js": {
+                "type": "-",
+                "size": 521,
+                "lmtime": 1703099856657.4512,
+                "modified": false
+              },
+              "navigationScripts.js": {
+                "type": "-",
+                "size": 1043,
+                "lmtime": 1703100172179.939,
+                "modified": false
+              },
+              "navigationScripts.min.js": {
+                "type": "-",
+                "size": 785,
+                "lmtime": 1703100172179.939,
+                "modified": false
+              },
+              "quoteFormScripts.js": {
+                "type": "-",
+                "size": 2049,
+                "lmtime": 1703099856658.45,
+                "modified": true
+              },
+              "quoteFormScripts.min.js": {
+                "type": "-",
+                "size": 923,
+                "lmtime": 1703099856658.45,
+                "modified": false
+              },
+              "runGtag.js": {
+                "type": "-",
+                "size": 2516,
+                "lmtime": 1703099856659.4512,
+                "modified": true
+              },
+              "runGtag.min.js": {
+                "type": "-",
+                "size": 1331,
+                "lmtime": 1703099856659.4512,
+                "modified": false
+              },
+              "servicesScripts.js": {
+                "type": "-",
+                "size": 1151,
+                "lmtime": 1703099856660.4512,
+                "modified": true
+              },
+              "servicesScripts.min.js": {
+                "type": "-",
+                "size": 500,
+                "lmtime": 1703099856660.4512,
+                "modified": false
+              },
+              "updateHtmlNoJs.js": {
+                "type": "-",
+                "size": 111,
+                "lmtime": 1703099856660.4512,
+                "modified": true
+              },
+              "updateHtmlNoJs.min.js": {
+                "type": "-",
+                "size": 90,
+                "lmtime": 1703099856661.4504,
+                "modified": false
+              },
+              "utilities.js": {
+                "type": "-",
+                "size": 1218,
+                "lmtime": 1703100172180.9402,
+                "modified": false
+              },
+              "utilities.min.js": {
+                "type": "-",
+                "size": 678,
+                "lmtime": 1703100172181.9402,
+                "modified": false
+              }
+            },
+            "lazysizes-5.3.2": {
+              "lazysizes.min.js": {
+                "type": "-",
+                "size": 7862,
+                "lmtime": 1703099856662.4502,
+                "modified": false
+              },
+              "ls.optimumx.min.js": {
+                "type": "-",
+                "size": 2712,
+                "lmtime": 1703099856662.4502,
+                "modified": false
+              }
+            },
+            "sass": {
+              "admin_wysiwyg.scss": {
+                "type": "-",
+                "size": 1564,
+                "lmtime": 1703100172182.9397,
+                "modified": false
+              },
+              "components": {
+                "_buttons-critical.scss": {
+                  "type": "-",
+                  "size": 2931,
+                  "lmtime": 1703100172182.9397,
+                  "modified": false
+                },
+                "_buttons.scss": {
+                  "type": "-",
+                  "size": 284,
+                  "lmtime": 1703100172183.938,
+                  "modified": false
+                },
+                "_cookie-consent.scss": {
+                  "type": "-",
+                  "size": 2748,
+                  "lmtime": 1703099856666.4526,
+                  "modified": false
+                },
+                "_default-navigation.scss": {
+                  "type": "-",
+                  "size": 6894,
+                  "lmtime": 1703100172183.938,
+                  "modified": false
+                },
+                "_google-maps-bar-critical.scss": {
+                  "type": "-",
+                  "size": 312,
+                  "lmtime": 1703099856667.4514,
+                  "modified": false
+                },
+                "_google-maps-bar.scss": {
+                  "type": "-",
+                  "size": 87,
+                  "lmtime": 1703099856667.4514,
+                  "modified": false
+                },
+                "_heading-bar-critical.scss": {
+                  "type": "-",
+                  "size": 259,
+                  "lmtime": 1703099856667.4514,
+                  "modified": false
+                },
+                "_heading-bar.scss": {
+                  "type": "-",
+                  "size": 660,
+                  "lmtime": 1703099856668.4507,
+                  "modified": false
+                },
+                "_heading-desc-critical.scss": {
+                  "type": "-",
+                  "size": 337,
+                  "lmtime": 1703100172184.9382,
+                  "modified": false
+                },
+                "_heading-desc.scss": {
+                  "type": "-",
+                  "size": 102,
+                  "lmtime": 1703099856669.451,
+                  "modified": false
+                },
+                "_heading-double-desc-critical.scss": {
+                  "type": "-",
+                  "size": 42,
+                  "lmtime": 1703100172184.9382,
+                  "modified": false
+                },
+                "_heading-double-desc.scss": {
+                  "type": "-",
+                  "size": 0,
+                  "lmtime": 1703100172184.9382,
+                  "modified": false
+                },
+                "_heading_img_desc_btn-critical.scss": {
+                  "type": "-",
+                  "size": 662,
+                  "lmtime": 1703100172184.9382,
+                  "modified": false
+                },
+                "_heading_img_desc_btn.scss": {
+                  "type": "-",
+                  "size": 153,
+                  "lmtime": 1703100172185.9392,
+                  "modified": false
+                },
+                "_images.scss": {
+                  "type": "-",
+                  "size": 701,
+                  "lmtime": 1703099856669.451,
+                  "modified": false
+                },
+                "_skip-to-main-content.scss": {
+                  "type": "-",
+                  "size": 356,
+                  "lmtime": 1703100172185.9392,
+                  "modified": false
+                },
+                "_small_desc_heading-critical.scss": {
+                  "type": "-",
+                  "size": 0,
+                  "lmtime": 1703100172186.9407,
+                  "modified": false
+                },
+                "_small_desc_heading.scss": {
+                  "type": "-",
+                  "size": 305,
+                  "lmtime": 1703100172191.9417,
+                  "modified": false
+                }
+              },
+              "critical.scss": {
+                "type": "-",
+                "size": 1304,
+                "lmtime": 1703100374962.2297,
+                "modified": false
+              },
+              "global": {
+                "_fonts.scss": {
+                  "type": "-",
+                  "size": 1170,
+                  "lmtime": 1703100172192.9392,
+                  "modified": false
+                },
+                "_global-critical.scss": {
+                  "type": "-",
+                  "size": 4366,
+                  "lmtime": 1703100172193.9402,
+                  "modified": false
+                },
+                "_global.scss": {
+                  "type": "-",
+                  "size": 1116,
+                  "lmtime": 1703100172193.9402,
+                  "modified": false
+                },
+                "_wysiwyg.scss": {
+                  "type": "-",
+                  "size": 2702,
+                  "lmtime": 1703100172199.94,
+                  "modified": false
+                },
+                "_XXXanimation-scroll.scss": {
+                  "type": "-",
+                  "size": 326,
+                  "lmtime": 1703099856670.4565,
+                  "modified": false
+                }
+              },
+              "other": {
+                "_cf7-5.8.3.scss": {
+                  "type": "-",
+                  "size": 3443,
+                  "lmtime": 1703099856673.452,
+                  "modified": false
+                }
+              },
+              "sections": {
+                "_about-critical.scss": {
+                  "type": "-",
+                  "size": 91,
+                  "lmtime": 1703100172204.9407,
+                  "modified": false
+                },
+                "_about.scss": {
+                  "type": "-",
+                  "size": 2517,
+                  "lmtime": 1703100172204.9407,
+                  "modified": false
+                },
+                "_contact-critical.scss": {
+                  "type": "-",
+                  "size": 1388,
+                  "lmtime": 1703100172204.9407,
+                  "modified": false
+                },
+                "_contact.scss": {
+                  "type": "-",
+                  "size": 0,
+                  "lmtime": 1703100172205.9412,
+                  "modified": false
+                },
+                "_footer-critical.scss": {
+                  "type": "-",
+                  "size": 2262,
+                  "lmtime": 1703100172205.9412,
+                  "modified": false
+                },
+                "_footer.scss": {
+                  "type": "-",
+                  "size": 843,
+                  "lmtime": 1703100172206.94,
+                  "modified": false
+                },
+                "_navigation-critical.scss": {
+                  "type": "-",
+                  "size": 17262,
+                  "lmtime": 1703102153453.766,
+                  "modified": false
+                },
+                "_navigation.scss": {
+                  "type": "-",
+                  "size": 1935,
+                  "lmtime": 1703100619827.1277,
+                  "modified": false
+                },
+                "_services-critical.scss": {
+                  "type": "-",
+                  "size": 0,
+                  "lmtime": 1703100172209.941,
+                  "modified": false
+                },
+                "_services.scss": {
+                  "type": "-",
+                  "size": 2130,
+                  "lmtime": 1703100172209.941,
+                  "modified": false
+                },
+                "_specialists-critical.scss": {
+                  "type": "-",
+                  "size": 1846,
+                  "lmtime": 1703100172209.941,
+                  "modified": false
+                },
+                "_testimonials-critical.scss": {
+                  "type": "-",
+                  "size": 1371,
+                  "lmtime": 1703100172210.942,
+                  "modified": false
+                },
+                "_testimonials.scss": {
+                  "type": "-",
+                  "size": 0,
+                  "lmtime": 1703100172210.942,
+                  "modified": false
+                }
+              },
+              "style.scss": {
+                "type": "-",
+                "size": 941,
+                "lmtime": 1703100172210.942,
+                "modified": false
+              },
+              "_mixins.scss": {
+                "type": "-",
+                "size": 2186,
+                "lmtime": 1703100172181.9402,
+                "modified": false
+              },
+              "_variables.scss": {
+                "type": "-",
+                "size": 2920,
+                "lmtime": 1703100172182.9397,
+                "modified": false
+              }
+            },
+            "splide-4.1.3": {
+              "splide-core.min.css": {
+                "type": "-",
+                "size": 2054,
+                "lmtime": 1703100601006.1196,
+                "modified": false
+              },
+              "splide-extension-grid.min.js": {
+                "type": "-",
+                "size": 6794,
+                "lmtime": 1703100172211.9387,
+                "modified": false
+              },
+              "splide.min.css": {
+                "type": "-",
+                "size": 5002,
+                "lmtime": 1703100569058.4343,
+                "modified": false
+              },
+              "splide.min.js": {
+                "type": "-",
+                "size": 29710,
+                "lmtime": 1703099856675.453,
+                "modified": true
+              }
+            }
+          },
+          "footer.php": {
+            "type": "-",
+            "size": 2080,
+            "lmtime": 1703100172211.9387,
+            "modified": false
+          },
+          "functions": {
+            "acf_config.php": {
+              "type": "-",
+              "size": 214,
+              "lmtime": 1703100172212.9395,
+              "modified": false
+            },
+            "acf_validator.php": {
+              "type": "-",
+              "size": 133,
+              "lmtime": 1703100172212.9395,
+              "modified": false
+            },
+            "add_default_og_image.php": {
+              "type": "-",
+              "size": 451,
+              "lmtime": 1703100172213.938,
+              "modified": false
+            },
+            "cf7_config.php": {
+              "type": "-",
+              "size": 1770,
+              "lmtime": 1703100172213.938,
+              "modified": false
+            },
+            "cpt_config.php": {
+              "type": "-",
+              "size": 1909,
+              "lmtime": 1703100172214.9395,
+              "modified": false
+            },
+            "disable_emojis.php": {
+              "type": "-",
+              "size": 509,
+              "lmtime": 1703100172214.9395,
+              "modified": false
+            },
+            "disable_posts.php": {
+              "type": "-",
+              "size": 359,
+              "lmtime": 1703100172215.9421,
+              "modified": false
+            },
+            "disable_search.php": {
+              "type": "-",
+              "size": 198,
+              "lmtime": 1703100172216.941,
+              "modified": false
+            },
+            "enable_svg.php": {
+              "type": "-",
+              "size": 791,
+              "lmtime": 1703100172216.941,
+              "modified": false
+            },
+            "error_reporting.php": {
+              "type": "-",
+              "size": 351,
+              "lmtime": 1703100172217.9397,
+              "modified": false
+            },
+            "html-compression": {
+              "FLHM_HTML_Compression.php": {
+                "type": "-",
+                "size": 3015,
+                "lmtime": 1703100172217.9397,
+                "modified": false
+              }
+            },
+            "html_compression.php": {
+              "type": "-",
+              "size": 189,
+              "lmtime": 1703100172218.9392,
+              "modified": false
+            },
+            "login_page_config.php": {
+              "type": "-",
+              "size": 1300,
+              "lmtime": 1703100172218.9392,
+              "modified": false
+            },
+            "ls_force_cache.php": {
+              "type": "-",
+              "size": 142,
+              "lmtime": 1703100172218.9392,
+              "modified": false
+            },
+            "majkelimages-1.7.0": {
+              "init.php": {
+                "type": "-",
+                "size": 507,
+                "lmtime": 1703100172219.939,
+                "modified": false
+              },
+              "lib": {
+                "MiBase.php": {
+                  "type": "-",
+                  "size": 2722,
+                  "lmtime": 1703100172220.939,
+                  "modified": false
+                },
+                "MiLossy.php": {
+                  "type": "-",
+                  "size": 7531,
+                  "lmtime": 1703100172220.939,
+                  "modified": false
+                },
+                "MiSVG.php": {
+                  "type": "-",
+                  "size": 2724,
+                  "lmtime": 1703100172220.939,
+                  "modified": false
+                }
+              }
+            },
+            "nav_menus_config.php": {
+              "type": "-",
+              "size": 2142,
+              "lmtime": 1703100172226.9392,
+              "modified": false
+            },
+            "smtp_config.php": {
+              "type": "-",
+              "size": 495,
+              "lmtime": 1703100172226.9392,
+              "modified": false
+            },
+            "spamguard-1.0.1": {
+              "README.md": {
+                "type": "-",
+                "size": 1180,
+                "lmtime": 1703099856684.4502,
+                "modified": true
+              },
+              "assets": {
+                "css": {},
+                "js": {
+                  "delete-confirm.js": {
+                    "type": "-",
+                    "size": 351,
+                    "lmtime": 1703099856685.4514,
+                    "modified": false
+                  },
+                  "delete-confirm.min.js": {
+                    "type": "-",
+                    "size": 301,
+                    "lmtime": 1703099856685.4514,
+                    "modified": false
+                  },
+                  "token-generator.js": {
+                    "type": "-",
+                    "size": 1715,
+                    "lmtime": 1703099856686.4502,
+                    "modified": false
+                  },
+                  "token-generator.min.js": {
+                    "type": "-",
+                    "size": 519,
+                    "lmtime": 1703099856686.4502,
+                    "modified": false
+                  }
+                }
+              },
+              "init.php": {
+                "type": "-",
+                "size": 359,
+                "lmtime": 1703100172227.9392,
+                "modified": false
+              },
+              "lib": {
+                "blacklist.json": {
+                  "type": "-",
+                  "size": 422,
+                  "lmtime": 1703099856687.4514,
+                  "modified": false
+                }
+              },
+              "src": {
+                "SpamGuard.log": {
+                  "type": "-",
+                  "size": 350068,
+                  "lmtime": 0,
+                  "modified": false
+                },
+                "SpamGuard.php": {
+                  "type": "-",
+                  "size": 19452,
+                  "lmtime": 1703100172228.9385,
+                  "modified": false
+                }
+              },
+              "todo.md": {
+                "type": "-",
+                "size": 77,
+                "lmtime": 1703099856688.4512,
+                "modified": true
+              }
+            },
+            "theme_config.php": {
+              "type": "-",
+              "size": 8113,
+              "lmtime": 1703100172234.939,
+              "modified": false
+            },
+            "theme_utils.php": {
+              "type": "-",
+              "size": 9046,
+              "lmtime": 1703100172236.9404,
+              "modified": false
+            },
+            "yoast_config.php": {
+              "type": "-",
+              "size": 151,
+              "lmtime": 1703100172237.9404,
+              "modified": false
+            }
+          },
+          "functions.php": {
+            "type": "-",
+            "size": 1040,
+            "lmtime": 1703100172212.9395,
+            "modified": false
+          },
+          "header.php": {
+            "type": "-",
+            "size": 2944,
+            "lmtime": 1703100172237.9404,
+            "modified": false
+          },
+          "index.php": {
+            "type": "-",
+            "size": 590,
+            "lmtime": 1703100172237.9404,
+            "modified": false
+          },
+          "page.php": {
+            "type": "-",
+            "size": 704,
+            "lmtime": 1703100172238.9404,
+            "modified": false
+          },
+          "screenshot.png": {
+            "type": "-",
+            "size": 47886,
+            "lmtime": 1703099856690.452,
+            "modified": false
+          },
+          "single-service.php": {
+            "type": "-",
+            "size": 86,
+            "lmtime": 1703100172239.9395,
+            "modified": false
+          },
+          "style.css": {
+            "type": "-",
+            "size": 293,
+            "lmtime": 0,
+            "modified": false
+          },
+          "template-parts": {
+            "_old": {
+              "cursor.php": {
+                "type": "-",
+                "size": 701,
+                "lmtime": 1703100172240.9404,
+                "modified": false
+              },
+              "mobile-bar.php": {
+                "type": "-",
+                "size": 964,
+                "lmtime": 1703100172240.9404,
+                "modified": false
+              }
+            },
+            "cf7-forms": {
+              "quote_form_110.php": {
+                "type": "-",
+                "size": 2200,
+                "lmtime": 1703099856694.453,
+                "modified": false
+              }
+            },
+            "components": {
+              "button.php": {
+                "type": "-",
+                "size": 704,
+                "lmtime": 1703100172240.9404,
+                "modified": false
+              },
+              "google_map_bar.php": {
+                "type": "-",
+                "size": 738,
+                "lmtime": 1703100172241.9402,
+                "modified": false
+              },
+              "heading-double-desc.php": {
+                "type": "-",
+                "size": 524,
+                "lmtime": 1703100172241.9402,
+                "modified": false
+              },
+              "heading-img-desc-btn.php": {
+                "type": "-",
+                "size": 779,
+                "lmtime": 1703100172242.9402,
+                "modified": false
+              },
+              "heading_bar.php": {
+                "type": "-",
+                "size": 666,
+                "lmtime": 1703100172243.941,
+                "modified": false
+              },
+              "heading_desc.php": {
+                "type": "-",
+                "size": 305,
+                "lmtime": 1703100172244.9407,
+                "modified": false
+              },
+              "heading_desc_btn.php": {
+                "type": "-",
+                "size": 551,
+                "lmtime": 1703100172244.9407,
+                "modified": false
+              },
+              "navigation.php": {
+                "type": "-",
+                "size": 5156,
+                "lmtime": 1703102581702.2812,
+                "modified": false
+              },
+              "small-desc-heading.php": {
+                "type": "-",
+                "size": 326,
+                "lmtime": 1703100172245.9407,
+                "modified": false
+              },
+              "tile.php": {
+                "type": "-",
+                "size": 2621,
+                "lmtime": 1703100172245.9407,
+                "modified": false
+              }
+            },
+            "flexible.php": {
+              "type": "-",
+              "size": 717,
+              "lmtime": 1703100172245.9407,
+              "modified": false
+            },
+            "main-page": {
+              "about.php": {
+                "type": "-",
+                "size": 1766,
+                "lmtime": 1703100172246.9397,
+                "modified": false
+              },
+              "contact.php": {
+                "type": "-",
+                "size": 5098,
+                "lmtime": 1703100172246.9397,
+                "modified": false
+              },
+              "hero.php": {
+                "type": "-",
+                "size": 6414,
+                "lmtime": 1703100172247.9397,
+                "modified": false
+              },
+              "services-backup.php": {
+                "type": "-",
+                "size": 4472,
+                "lmtime": 1703100172247.9397,
+                "modified": false
+              },
+              "services.php": {
+                "type": "-",
+                "size": 4788,
+                "lmtime": 1703100172247.9397,
+                "modified": false
+              },
+              "sp.php": {
+                "type": "-",
+                "size": 6030,
+                "lmtime": 1703100172248.9397,
+                "modified": false
+              },
+              "testimionials.php": {
+                "type": "-",
+                "size": 2232,
+                "lmtime": 1703100172248.9397,
+                "modified": false
+              }
+            },
+            "other": {
+              "breadcrumb.php": {
+                "type": "-",
+                "size": 279,
+                "lmtime": 1703100172250.94,
+                "modified": false
+              },
+              "cookie_consent_dialog.php": {
+                "type": "-",
+                "size": 1931,
+                "lmtime": 1703100172251.94,
+                "modified": false
+              },
+              "svg.php": {
+                "type": "-",
+                "size": 62415,
+                "lmtime": 1703100172252.9397,
+                "modified": false
+              },
+              "wcag-main.php": {
+                "type": "-",
+                "size": 163,
+                "lmtime": 1703099856700.4517,
+                "modified": true
+              }
+            }
+          },
+          "templates": {
+            "template-main-page.php": {
+              "type": "-",
+              "size": 221,
+              "lmtime": 1703100172252.9397,
+              "modified": false
+            },
+            "template-privacy.php": {
+              "type": "-",
+              "size": 266,
+              "lmtime": 1703099856701.4517,
+              "modified": false
+            }
+          }
+        },
+        "screenshot.png": {
+          "type": "-",
+          "size": 47886,
+          "lmtime": 0,
+          "modified": false
+        },
+        "twentytwentyfour": {},
+        "twentytwentythree": {},
+        "twentytwentytwo": {}
+      },
+      "upgrade": {},
+      "upgrade-temp-backup": {},
+      "uploads": {
+        "2020": {},
+        "2022": {},
+        "2023": {
+          "11": {},
+          "12": {
+            "about-us-1024x684.avif": {
+              "type": "-",
+              "size": 71077,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-1024x684.png": {
+              "type": "-",
+              "size": 992158,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-1024x684.webp": {
+              "type": "-",
+              "size": 72214,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-1280x854.avif": {
+              "type": "-",
+              "size": 96212,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-1280x854.png": {
+              "type": "-",
+              "size": 1429271,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-1280x854.webp": {
+              "type": "-",
+              "size": 96594,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-1440x961.avif": {
+              "type": "-",
+              "size": 110091,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-1440x961.png": {
+              "type": "-",
+              "size": 1728781,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-1440x961.webp": {
+              "type": "-",
+              "size": 113394,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-150x100.avif": {
+              "type": "-",
+              "size": 4440,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-150x100.png": {
+              "type": "-",
+              "size": 33192,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-150x100.webp": {
+              "type": "-",
+              "size": 4232,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-300x200.avif": {
+              "type": "-",
+              "size": 12160,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-300x200.png": {
+              "type": "-",
+              "size": 116346,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-300x200.webp": {
+              "type": "-",
+              "size": 11744,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-500x334.avif": {
+              "type": "-",
+              "size": 25871,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-500x334.png": {
+              "type": "-",
+              "size": 289843,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-500x334.webp": {
+              "type": "-",
+              "size": 25700,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-768x513.avif": {
+              "type": "-",
+              "size": 48405,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-768x513.png": {
+              "type": "-",
+              "size": 611219,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us-768x513.webp": {
+              "type": "-",
+              "size": 48722,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us.avif": {
+              "type": "-",
+              "size": 154390,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us.png": {
+              "type": "-",
+              "size": 1863443,
+              "lmtime": 0,
+              "modified": false
+            },
+            "about-us.webp": {
+              "type": "-",
+              "size": 154622,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1024x683.avif": {
+              "type": "-",
+              "size": 12403,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1024x683.jpg": {
+              "type": "-",
+              "size": 33885,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1024x683.webp": {
+              "type": "-",
+              "size": 13620,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1280x854.avif": {
+              "type": "-",
+              "size": 16928,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1280x854.jpg": {
+              "type": "-",
+              "size": 50146,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1280x854.webp": {
+              "type": "-",
+              "size": 19308,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1440x960.avif": {
+              "type": "-",
+              "size": 19790,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1440x960.jpg": {
+              "type": "-",
+              "size": 61729,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1440x960.webp": {
+              "type": "-",
+              "size": 23078,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-150x100.avif": {
+              "type": "-",
+              "size": 1339,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-150x100.jpg": {
+              "type": "-",
+              "size": 2343,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-150x100.webp": {
+              "type": "-",
+              "size": 1044,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1920x1281.avif": {
+              "type": "-",
+              "size": 30403,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1920x1281.jpg": {
+              "type": "-",
+              "size": 105125,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-1920x1281.webp": {
+              "type": "-",
+              "size": 37014,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-300x200.avif": {
+              "type": "-",
+              "size": 2739,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-300x200.jpg": {
+              "type": "-",
+              "size": 5285,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-300x200.webp": {
+              "type": "-",
+              "size": 2462,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-500x334.avif": {
+              "type": "-",
+              "size": 5084,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-500x334.jpg": {
+              "type": "-",
+              "size": 10837,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-500x334.webp": {
+              "type": "-",
+              "size": 4882,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-768x512.avif": {
+              "type": "-",
+              "size": 8429,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-768x512.jpg": {
+              "type": "-",
+              "size": 20837,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0-768x512.webp": {
+              "type": "-",
+              "size": 8866,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0.avif": {
+              "type": "-",
+              "size": 38930,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0.jpg": {
+              "type": "-",
+              "size": 535803,
+              "lmtime": 0,
+              "modified": false
+            },
+            "hero-img-0.webp": {
+              "type": "-",
+              "size": 44202,
+              "lmtime": 0,
+              "modified": false
+            },
+            "logo-150x48.avif": {
+              "type": "-",
+              "size": 2785,
+              "lmtime": 0,
+              "modified": false
+            },
+            "logo-150x48.png": {
+              "type": "-",
+              "size": 4291,
+              "lmtime": 0,
+              "modified": false
+            },
+            "logo-150x48.webp": {
+              "type": "-",
+              "size": 1896,
+              "lmtime": 0,
+              "modified": false
+            },
+            "logo-300x96.avif": {
+              "type": "-",
+              "size": 5968,
+              "lmtime": 0,
+              "modified": false
+            },
+            "logo-300x96.png": {
+              "type": "-",
+              "size": 10330,
+              "lmtime": 0,
+              "modified": false
+            },
+            "logo-300x96.webp": {
+              "type": "-",
+              "size": 3804,
+              "lmtime": 0,
+              "modified": false
+            },
+            "logo.avif": {
+              "type": "-",
+              "size": 4565,
+              "lmtime": 0,
+              "modified": false
+            },
+            "logo.png": {
+              "type": "-",
+              "size": 17928,
+              "lmtime": 0,
+              "modified": false
+            },
+            "logo.webp": {
+              "type": "-",
+              "size": 4692,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_aleksandra_starosciak-150x150.avif": {
+              "type": "-",
+              "size": 2163,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_aleksandra_starosciak-150x150.png": {
+              "type": "-",
+              "size": 20673,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_aleksandra_starosciak-150x150.webp": {
+              "type": "-",
+              "size": 1844,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_aleksandra_starosciak.avif": {
+              "type": "-",
+              "size": 3644,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_aleksandra_starosciak.png": {
+              "type": "-",
+              "size": 40741,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_aleksandra_starosciak.webp": {
+              "type": "-",
+              "size": 3242,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_jacek_albinski.avif": {
+              "type": "-",
+              "size": 2608,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_jacek_albinski.jpg": {
+              "type": "-",
+              "size": 4155,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_jacek_albinski.webp": {
+              "type": "-",
+              "size": 2468,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_mariusz_turowski-150x150.avif": {
+              "type": "-",
+              "size": 2980,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_mariusz_turowski-150x150.png": {
+              "type": "-",
+              "size": 31673,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_mariusz_turowski-150x150.webp": {
+              "type": "-",
+              "size": 2706,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_mariusz_turowski.avif": {
+              "type": "-",
+              "size": 4906,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_mariusz_turowski.png": {
+              "type": "-",
+              "size": 62417,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_mariusz_turowski.webp": {
+              "type": "-",
+              "size": 4608,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_pawel_pudelko-150x150.avif": {
+              "type": "-",
+              "size": 2558,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_pawel_pudelko-150x150.png": {
+              "type": "-",
+              "size": 25763,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_pawel_pudelko-150x150.webp": {
+              "type": "-",
+              "size": 2238,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_pawel_pudelko.avif": {
+              "type": "-",
+              "size": 4680,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_pawel_pudelko.png": {
+              "type": "-",
+              "size": 51869,
+              "lmtime": 0,
+              "modified": false
+            },
+            "wilmed_pawel_pudelko.webp": {
+              "type": "-",
+              "size": 4176,
+              "lmtime": 0,
+              "modified": false
+            }
+          }
+        },
+        "wp-file-manager-pro": {},
+        "wpcf7_uploads": {}
+      },
+      "wflogs": {}
+    },
+    "wp-cron.php": {
+      "type": "-",
+      "size": 5638,
+      "lmtime": 0,
+      "modified": false
+    },
+    "wp-includes": {},
+    "wp-links-opml.php": {
+      "type": "-",
+      "size": 2502,
+      "lmtime": 0,
+      "modified": false
+    },
+    "wp-load.php": {
+      "type": "-",
+      "size": 3927,
+      "lmtime": 0,
+      "modified": false
+    },
+    "wp-login.php": {
+      "type": "-",
+      "size": 50924,
+      "lmtime": 0,
+      "modified": false
+    },
+    "wp-mail.php": {
+      "type": "-",
+      "size": 8525,
+      "lmtime": 0,
+      "modified": false
+    },
+    "wp-settings.php": {
+      "type": "-",
+      "size": 26409,
+      "lmtime": 0,
+      "modified": false
+    },
+    "wp-signup.php": {
+      "type": "-",
+      "size": 34385,
+      "lmtime": 0,
+      "modified": false
+    },
+    "wp-trackback.php": {
+      "type": "-",
+      "size": 4885,
+      "lmtime": 0,
+      "modified": false
+    },
+    "xmlrpc.php": {
+      "type": "-",
+      "size": 3154,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".tmb": {}
+  },
+  "$version": 1
+}

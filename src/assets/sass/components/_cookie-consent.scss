@@ -1,0 +1,170 @@
+/*
+ * _cookie-consent.scss
+ * critical styles
+ */
+
+#{$cookieConsentToggler} {
+  gap: 15px;
+  font-size: 0.85em;
+
+  &__in:checked + &__wr:not(#{$cookieConsentToggler}__wr--dis) {
+    background: var(--defColor);
+  }
+
+  &__in:checked + &__wr--dis {
+    background: #666;
+
+    & #{$cookieConsentToggler}__sl {
+      background: #f3f3f3;
+    }
+  }
+
+  &__in:checked + &__wr &__sl {
+    transform: translateX(17px);
+  }
+
+  &__wr {
+    width: 36px;
+    height: 18px;
+    aspect-ratio: 2/1;
+
+    border-radius: 15px;
+    background: #ccc;
+  }
+
+  &:not(&--dis) {
+    cursor: pointer;
+  }
+
+  &--dis {
+    cursor: not-allowed;
+  }
+
+  &__sl {
+    top: 2px;
+    left: 2px;
+    width: 14px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+}
+
+#{$cookieConsentDialog} {
+  background: transparent;
+  border: none;
+
+  &__btn {
+    --bg-color: var(--defColor);
+    border: 0;
+  }
+
+  &__btn--save {
+    padding: 8px 12px !important;
+  }
+
+  &::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0;
+    border: none;
+  }
+
+  &:not([open]) {
+    display: none !important;
+  }
+
+  &,
+  &:focus {
+    border: none;
+    outline: none;
+  }
+
+  &__actions {
+    gap: 15px;
+    flex-direction: column;
+
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+
+  &__wr {
+    padding: 35px;
+    max-width: 650px;
+    gap: 15px;
+    background: var(--black-50, #f7f7f7);
+  }
+
+  &__set {
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+  }
+
+  &__set--active {
+    opacity: 1;
+    visibility: visible;
+    max-height: unset;
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+
+  &__link {
+    padding: 0;
+    border: 0;
+    background: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#{$stopScrolling} {
+  max-height: 100vh;
+  overflow: hidden !important;
+}
+
+.cookie-dialog .cookie-dialog[open]:focus {
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  #{$cookieConsentDialog}__wr {
+    border-radius: 0;
+    max-width: 100%;
+  }
+
+  #{$cookieConsentDialog}--e {
+    align-self: end;
+  }
+}
+
+@media (min-width: 768px) {
+  #{$cookieConsentDialog}__wr {
+    margin-bottom: 20vh;
+    padding: 50px;
+  }
+
+  #{$cookieConsentDialog}__actions {
+    gap: 18px;
+  }
+
+  #{$cookieConsentDialog}__set--active {
+    gap: 20px;
+  }
+
+  #{$cookieConsentDialog}__actions,
+  #{$cookieConsentDialog}__set {
+    align-items: center;
+    gap: 25px;
+  }
+
+  #{$cookieConsentDialog}__set--active,
+  #{$cookieConsentDialog}__actions {
+    flex-direction: row;
+  }
+}

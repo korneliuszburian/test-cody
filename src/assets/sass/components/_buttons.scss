@@ -1,0 +1,18 @@
+/**
+ * _buttons.css
+ * styles for button, non-critical, deferred
+ */
+
+#{$button} {
+    gap: 10px;
+
+    &--def:hover,
+    &--def:focus {
+        background: var(--altColor);
+    }
+
+    &--alt:hover,
+    &--alt:focus {
+        background-color: var(--defColor);
+    }
+}

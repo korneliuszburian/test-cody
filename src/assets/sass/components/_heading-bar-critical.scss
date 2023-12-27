@@ -1,0 +1,16 @@
+/**
+ * _heading-bar-critical.css
+ * styles for heading_bar.php, critical
+ */
+
+#{$headingBar} {
+  border-top: 6px solid var(--defColor);
+  padding-block: clamp(35px, 12vw, 50px);
+
+  &__feat {
+    top: 2px;
+  }
+}
+
+@media (min-width: 1024px) {
+}

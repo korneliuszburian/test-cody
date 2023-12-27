@@ -1,0 +1,51 @@
+/**
+ * _footer.css
+ * non-critical styles
+ */
+
+#{$footer} {
+    &__c {
+        gap: 40px;
+    }
+
+    &__add {
+        display: flex;
+        max-width: 363px;
+        flex-direction: column;
+        gap: 24px;
+
+        @media (max-width: 1024px) {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
+    &__col {
+        grid-template-columns: 1fr 2fr;
+        gap: 123px;
+
+        &--1 {
+            gap: 72px;
+
+            @media (max-width: 1024px) {
+                gap: 25px;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__col--2 {
+        gap: 35px;
+    }
+
+    // &__text,
+    // &__texts>p,
+    // & #{$defaultNavigation}__link {
+    //     color: #666;
+    // }
+
+}

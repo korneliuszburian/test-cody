@@ -1,0 +1,9 @@
+#{$headingImgDescBtn} {
+  display: flex;
+  gap: 40px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    gap: 24px;
+  }
+}

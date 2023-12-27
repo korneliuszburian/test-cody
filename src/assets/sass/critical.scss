@@ -1,0 +1,41 @@
+/**
+ * critical.css
+ * layout and other styles that need to be loaded first
+ */
+
+/* global */
+@import "mixins";
+@import "variables";
+@import "global/fonts";
+@import "global/global-critical";
+@import "global/wysiwyg";
+
+/* components */
+@import "components/cookie-consent";
+@import "components/skip-to-main-content";
+@import "components/default-navigation";
+@import "components/images";
+@import "components/buttons-critical";
+@import "components/heading-bar-critical";
+@import "components/heading-desc-critical";
+@import "components/google-maps-bar-critical";
+@import "components/small_desc_heading-critical";
+@import "components/heading_img_desc_btn-critical";
+@import "components/heading-double-desc-critical";
+
+
+/* sections */
+@import "sections/navigation-critical";
+@import "admin_wysiwyg";
+@import "sections/contact-critical";
+@import "sections/hero-critical";
+// @import "sections/services-critical";
+// @import "sections/realisations-critical";
+// @import "sections/technologies-critical";
+@import "sections/about-critical";
+@import "sections/specialists-critical";
+@import "sections/testimonials-critical";
+// @import "sections/cta-critical";
+// @import "sections/opinions-critical";
+// @import "sections/quote-critical";
+@import "sections/footer-critical";

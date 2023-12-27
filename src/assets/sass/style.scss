@@ -1,0 +1,37 @@
+/**
+ * style.css
+ * main styles, deferred
+ */
+
+/* global */
+@import "mixins";
+@import "variables";
+@import "global/global";
+@import "admin_wysiwyg";
+
+/* components */
+@import "components/buttons";
+@import "components/heading-bar";
+@import "components/heading-desc";
+@import "components/google-maps-bar";
+@import "components/small_desc_heading";
+@import "components/heading_img_desc_btn";
+@import "components/heading-double-desc";
+
+/* sections */
+@import "sections/navigation";
+@import "sections/hero";
+@import "sections/services";
+@import "sections/contact";
+// @import "sections/realisations";
+// @import "sections/technologies";
+@import "sections/about";
+@import "sections/specialists";
+@import "sections/testimonials";
+// @import "sections/cta";
+// @import "sections/opinions";
+// @import "sections/quote";
+@import "sections/footer";
+
+@import "../splide-4.1.3/splide.min";
+@import "other/cf7-5.8.3";

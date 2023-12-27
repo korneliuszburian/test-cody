@@ -1,0 +1,45 @@
+/**
+ * _heading-bar.css
+ * styles for heading_bar.php, non-critical
+ */
+
+#{$headingBar} {
+  background: var(--bg, #fff);
+
+  &__c,
+  &__wr {
+    gap: var(--h-gap, 5px);
+  }
+}
+
+@media (max-width: 575px) {
+  #{$headingBar}__dec {
+    max-width: 60px;
+  }
+}
+
+@media (min-width: 350px) {
+  #{$headingBar}__dec {
+    display: block;
+  }
+
+  #{$headingBar}__c,
+  #{$headingBar}__wr {
+    gap: var(--h-gap, 20px);
+  }
+}
+
+@media (min-width: 1024px) {
+  #{$headingBar}__c,
+  #{$headingBar}__wr {
+    --h-gap: 42px;
+  }
+
+  #{$headingBar}__feat {
+    margin-left: 60px;
+  }
+
+  #{$headingBar}__c {
+    flex-direction: row;
+  }
+}

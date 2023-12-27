@@ -1,0 +1,51 @@
+/**
+ * _fonts.css
+ */
+
+@font-face {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(#{$assetsPath} + 'fonts/GeneralSans-Regular.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(#{$assetsPath} + 'fonts/GeneralSans-Medium.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(#{$assetsPath} + 'fonts/GeneralSans-Bold.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(#{$assetsPath} + 'fonts/Spartan-Regular.ttf') format("ttf");
+}
+
+@font-face {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(#{$assetsPath} + 'fonts/Spartan-Medium.ttf') format("ttf");
+}
+
+@font-face {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(#{$assetsPath} + 'fonts/Spartan-Bold.ttf') format("ttf");
+}

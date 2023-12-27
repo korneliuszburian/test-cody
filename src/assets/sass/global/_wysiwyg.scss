@@ -1,0 +1,160 @@
+/**
+ * _wysiwyg.css
+ * critical styles
+ */
+
+#{$wysiwyg} {
+    &>*:first-child {
+        margin-top: 0;
+    }
+
+    * {
+        margin-bottom: 0;
+    }
+
+    &>*+* {
+        margin-top: 2rem;
+    }
+
+    p,
+    li {
+        font-size: 1.15rem;
+        line-height: 1.5;
+        color: #666;
+    }
+
+    li:not(:first-child) {
+        margin-top: 5px;
+    }
+
+    a {
+        color: var(--defColor);
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    ol,
+    ul {
+        margin-block: 10px 20px;
+    }
+
+    ol {
+        max-width: calc(100% - 7rem);
+        margin-left: 3.5rem;
+        padding: 0;
+        position: relative;
+    }
+
+    ul {
+        max-width: calc(100% - 6rem);
+        margin-left: 3rem;
+        padding: 0;
+    }
+}
+
+:root {
+    --min-size: 16;
+    --max-size: 16;
+    --viewport-min: 320;
+    --viewport-max: 2400;
+    --container-min: 320;
+    --container-max: 2400;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+    --font-size: calc(var(--min-size) * 1px + (var(--max-size) - var(--min-size)) * (100vw - var(--viewport-min) * 1px) / (var(--viewport-max) - var(--viewport-min)));
+    --font-size-container: calc(var(--min-size) * 1px + (var(--max-size) - var(--min-size)) * (100cqw - var(--container-min) * 1px) / (var(--container-max) - var(--container-min)));
+    font-size: clamp(var(--min-size) * 1px, var(--font-size-container), var(--max-size) * 1px);
+    line-height: 1.1em;
+    // text-wrap: balance;
+}
+
+// .h1 {
+//     --min-size: 36.49;
+//     --max-size: 41.05;
+// }
+
+// .h2 {
+//     --min-size: 32.44;
+//     --max-size: 36.49;
+// }
+
+// .h3 {
+//     --min-size: 25.63;
+//     --max-size: 32.44;
+// }
+
+// .h4 {
+//     --min-size: 14.03;
+//     --max-size: 25.63;
+// }
+
+// .h5 {
+//     --min-size: 12.02;
+//     --max-size: 22.78;
+// }
+
+
+.h1,
+#{$wysiwyg} h1 {
+    font-size: clamp(2em, 4vw, 3.4em);
+    line-height: 1.3em;
+}
+
+.h2,
+#{$wysiwyg} h2 {
+    font-size: clamp(1.7em, 3vw, 2.7em);
+}
+
+.h3,
+#{$wysiwyg} h3 {
+    font-size: clamp(2.3em, 3vw, 2.6em)
+}
+
+.h4,
+#{$wysiwyg} h4 {
+    font-size: clamp(1.7em, 3vw, 1.9em)
+}
+
+.h5,
+#{$wysiwyg} h5 {
+    font-size: clamp(1.5em, 3vw, 1.6em)
+}
+
+// 18px
+.h6,
+#{$wysiwyg} h6 {
+    font-size: clamp(1.1em, 3vw, 1.2em);
+}
+
+.h1,
+#{$wysiwyg} h1,
+.h2,
+#{$wysiwyg} h2,
+.h3,
+#{$wysiwyg} h3,
+.h4,
+#{$wysiwyg} h4 {
+    // color: var(--headingColor);
+}
+
+#{$wysiwyg} :is(h2, h3, h4, h5, h6) {
+    font-family: "General Sans";
+    font-weight: 400;
+}
+
+.feat {
+    font-size: clamp(18px, 3vw, 22px);
+}
+
+// 12.64px
+.reg {
+    font-size: 12.64px;
+}

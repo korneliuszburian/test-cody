@@ -1,0 +1,24 @@
+/**
+ * _heading-desc-critical.css
+ * styles for heading_desc.php, critical
+ */
+
+#{$headingDesc} {}
+
+@media (min-width: 1024px) {
+  #{$headingDesc} {
+    &__h {
+      --colSize: 4;
+    }
+
+    &__feat {
+      --colStart: 6;
+      --colSize: 7;
+    }
+
+    &__img {
+      --colStart: 1;
+      --colSize: 5;
+    }
+  }
+}

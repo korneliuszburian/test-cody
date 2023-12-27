@@ -1,0 +1,20 @@
+{
+  "host": "master.proudhost.eu",
+  "username": "wilmeddev",
+  "password": "2f52rU3&i",
+  "remotePath": "wp-content/themes/rekurencja-theme",
+  "protocol": "ftp",
+  "port": 21,
+  "localBasePath": "src",
+  "fileNameEncoding": "utf8",
+  "autoUpload": true,
+  "autoDelete": true,
+  "autoDownload": true,
+  "ignore": [
+    ".git",
+    "/.vscode",
+    ".gitignore",
+    ".gitattributes",
+    "*.code-workspace"
+  ]
+}

@@ -1,0 +1,139 @@
+/**
+ * _variables.css
+ * SCSS only variables
+ */
+
+$assetsPath: "/wp-content/themes/rekurencja-theme/assets/";
+
+/* layout */
+@use "sass:math";
+
+$containerColumns: 12;
+$containerWidth: 1140;
+
+/* sections */
+$navigation: ".n";
+$navigationMenu: ".n-nav";
+$additionals: ".n-a";
+$hero: ".h";
+$heroNavigation: ".h-nav";
+$footer: ".f";
+$services: ".s";
+$about: ".ab";
+$sp: ".sp";
+$tes: ".tes";
+$c: ".contact";
+$navSubMenu: ".sub-menu";
+
+/* sections */
+$navigation: ".n";
+$navigationMenu: ".n-nav";
+$navHamburger: ".n-hb";
+$hero: ".h";
+$map: ".map";
+
+$services: ".s";
+$servicesCard: ".s-card";
+$footer: ".f";
+$cta: ".ct";
+
+/* components */
+$button: ".btn";
+$reviews: ".rev";
+$reviewsCard: ".rev-card";
+$skipToMainContent: ".stmc";
+$wysiwyg: ".wy";
+$cookieConsentDialog: ".ccd";
+$cookieConsentToggler: ".cct";
+
+/* others */
+$stopScrolling: ".ss";
+
+/* components */
+$defaultNavigation: ".nav";
+$button: ".btn";
+$headingBar: ".hb";
+$headingDesc: ".hd";
+$googleMapBar: ".gm";
+$skipToMainContent: ".stmc";
+$wysiwyg: ".wy";
+$cookieConsentDialog: ".ccd";
+$cookieConsentToggler: ".cct";
+$headingDescSmall: ".hd__sm";
+$headingImgDescBtn: ".hd__idb";
+$headingDoubleDesc: ".hd__dd";
+
+/* others */
+$stopScrolling: ".ss";
+
+/* colors */
+$defaultColor: #BF8B29;
+$alternativeColor: #1AAA55;
+$whiteColor: #fff;
+$blackColor: #000;
+$grayColor: #E3E3E3;
+$textColor: #A4A4A4;
+$headingColor: #383838;
+$alternativeHeadingColor: #818181;
+$lightGrayColor: #F7F7F7;
+
+/* text standard */
+$baseFontSize: 16px;
+$captionFontScale: 0.79; // 12.64px / 16px
+
+/* contrast colors */
+$primaryContrastColor: #0D47A1;
+$secondaryContrastColor: #5472D3;
+$backgroundContrastColor: #FAFAFA;
+$textContrastColor: #212121;
+$accentContrastColor: #FFC107;
+$headingContrastColor: #263238;
+$borderContrastColor: #B0BEC5;
+
+$contrastColor: (
+    "primary": $primaryContrastColor,
+    "secondary": $secondaryContrastColor,
+    "background": $backgroundContrastColor,
+    "text": $textContrastColor,
+    "accent": $accentContrastColor,
+    "heading": $headingContrastColor,
+    "border": $borderContrastColor,
+);
+
+
+$color: (
+    "def": var(--defColor),
+    "alt": var(--altColor),
+    "white": var(--whiteColor),
+    "black": var(--blackColor),
+    "gray": var(--grayColor),
+    "text": var(--textColor),
+    "heading": var(--headingColor),
+    "altHeading": var(--altHeadingColor),
+    "lightGray": var(--lightGrayColor),
+);
+
+/* properties */
+$display: grid, flex, inline-flex, block, none;
+$transition: 50ms ease;
+$paddingClampValue: clamp(100px, 10vw, 150px);
+
+$line-height: (
+    "1": 1.1,
+    "3": 1.3,
+    "5": 1.5,
+    "7": 1.7,
+);
+
+$font-weight: (
+    "300": 300,
+    "400": 400,
+    "500": 500,
+    "600": 600,
+    "700": 700,
+);
+
+$font-family: (
+    "main": #{"General Sans"},
+    "alt": #{"General Sans"},
+);

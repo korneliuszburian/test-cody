@@ -1,0 +1,790 @@
+/**
+ * _navigation-critical.css
+ * critical styles
+ */
+
+#{$navigation} {
+    top: var(--wp-admin--admin-bar--height, 0);
+
+    &__c {
+        &--btn {
+            display: none;
+        }
+
+        &--dec {
+            display: none;
+        }
+    }
+
+    @media (max-width: 1280px) {
+        &__c {
+            &--b:nth-of-type(3) {
+                & p {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+        &__c {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+
+            &--dec {
+                width: 31px;
+                height: 1px;
+                background: var(--grayColor);
+                display: block;
+                order: 3;
+            }
+
+            &--i {
+                display: none;
+            }
+
+            &--h {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+                order: 2;
+
+                &:nth-child(1) {
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 21px;
+                    letter-spacing: -0.28px;
+                }
+            }
+
+            &--b:nth-of-type(3) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                order: 4;
+            }
+
+            &--b:nth-of-type(4) {
+                display: flex;
+                height: 40px;
+                padding: 16px 24px;
+                justify-content: center;
+                align-items: center;
+                gap: 32px;
+                flex-shrink: 0;
+                order: 0;
+            }
+
+            &--btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+                order: 1;
+            }
+        }
+    }
+
+    &,
+    &__c {
+        background: #fff;
+
+        &-wr {
+            flex-direction: column;
+            padding-inline: 24px;
+            padding-block: 24px;
+            transition: padding-block 300ms ease;
+
+            @media (max-width: 1024px) {
+                flex-direction: row;
+            }
+        }
+    }
+}
+
+#{$additionals} {
+    &__i {
+        background: var(--blackColor);
+        color: var(--whiteColor);
+        padding: 4px 12px;
+    }
+}
+
+#{$navHamburger} {
+    &__line {
+        stroke: #000;
+        stroke-width: 5.5;
+        stroke-linecap: round;
+    }
+
+    .middle {
+        transform-origin: 50%;
+    }
+
+    .bottom {
+        transform-origin: 50%;
+    }
+}
+
+/* nadpisuje menu domyślne - responsywne */
+#{$navigationMenu} #{$defaultNavigation}__link {
+    font-size: 2.5em;
+}
+
+@media (min-width: 1025px) {
+    #{$navHamburger} {
+        display: none;
+    }
+
+    #{$navigationMenu} {
+        opacity: 1;
+        visibility: visible;
+        position: static;
+
+        &,
+        &__ul {
+            flex-direction: row;
+        }
+    }
+
+    // #{$navigationMenu}__btn {
+    //   font-size: 1.35em;
+    // }
+
+    #{$navigationMenu} #{$defaultNavigation}__link {
+        font-size: 1.15em;
+    }
+}
+
+h2 {
+    font-size: clamp(1.75rem, 4vw, 3rem);
+    line-height: 1.2;
+}
+
+/*--------------------------------------------------------------
+# Wordpress Styles - Cover Block / Image
+--------------------------------------------------------------*/
+.wp-block-cover,
+.wp-block-cover-image {
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 707px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 24px;
+    box-sizing: border-box;
+}
+
+.wp-block-cover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.wp-block-cover__image-background {
+    z-index: 0;
+}
+
+.wp-block-cover-image img.wp-block-cover__image-background,
+.wp-block-cover img.wp-block-cover__image-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    -o-object-fit: cover;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.alignfull {
+    max-width: 100%;
+    padding: 0;
+}
+
+.wp-block-cover-image.has-background-dim:before,
+.wp-block-cover-image .has-background-dim:before,
+.wp-block-cover.has-background-dim:before,
+.wp-block-cover .has-background-dim:before {
+    content: "";
+    background-color: inherit;
+}
+
+.wp-block-cover-image.has-background-dim:not(.has-background-gradient):before,
+.wp-block-cover-image .has-background-dim:not(.has-background-gradient):before,
+.wp-block-cover-image .wp-block-cover__gradient-background,
+.wp-block-cover.has-background-dim:not(.has-background-gradient):before,
+.wp-block-cover .has-background-dim:not(.has-background-gradient):before,
+.wp-block-cover .wp-block-cover__gradient-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.wp-block-cover__inner-container,
+.wp-block-group__inner-container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wp-block-cover-image .wp-block-cover__inner-container,
+.wp-block-cover .wp-block-cover__inner-container {
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    padding-inline: 180px 0;
+    transition: padding-inline 300ms ease;
+
+    @media (max-width: 1024px) {
+        padding-inline: 0;
+    }
+}
+
+
+
+.wp-block-cover.has-background-dim.has-background-dim-100 .wp-block-cover__gradient-background {
+    opacity: 1;
+}
+
+/*--------------------------------------------------------------
+## WordPress Cover Block / Image - Our specific styles
+--------------------------------------------------------------*/
+.has-theme-slide-overlay-gradient-background {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.wp-block-columns.ba-banner-columns {
+    display: flex;
+    padding-block: 70px 0;
+}
+
+.wp-block-column h2 {
+    line-height: 53.365px;
+    letter-spacing: -2.052px;
+}
+
+@media (min-width: 1024px) {
+    .ba-banner-column-50 {
+        flex-basis: 45%;
+        display: flex;
+        gap: 64px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ba-banner-column-50 {
+        flex-basis: 100%;
+        display: flex;
+        gap: 64px;
+        flex-direction: column;
+    }
+}
+
+.wp-block-cover {
+    height: 100%;
+}
+
+/*--------------------------------------------------------------
+# Wordpress Styles - Buttons
+--------------------------------------------------------------*/
+.wp-block-buttons {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: center;
+}
+
+.wp-block-button .wp-block-button__link {
+    border-radius: 9999px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .8125rem;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    overflow-wrap: break-word;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+a.wp-block-button__link.has-theme-primary-background-color.has-background {
+    background: #fff;
+    color: #3f51b5;
+}
+
+/*--------------------------------------------------------------
+# Splide Customizations
+--------------------------------------------------------------*/
+.slide-preview-text {
+    display: none;
+}
+
+.slide-tiny-heading {
+    display: none;
+}
+
+.splide__custom-navigation {
+    bottom: 0.5em;
+    left: 0;
+    padding-inline: 24px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9999999;
+
+    .splide__custom-prev,
+    .splide__custom-next {
+        display: inline-block;
+        line-height: 1;
+        list-style-type: none;
+        margin: 0;
+        pointer-events: auto;
+    }
+}
+
+/*--------------------------------------------------------------
+## Splide Customizations - Larger buttons for slide nav (smaller screens)
+--------------------------------------------------------------*/
+@media (max-width: 1249px) {
+    .splide__pagination__page {
+        height: 20px;
+        width: 20px;
+        margin: 10px;
+    }
+
+    /* Make a progress bar out of pseudo elements :D */
+    .splide__custom-navigation {
+        position: absolute;
+    }
+}
+
+/*--------------------------------------------------------------
+## Splide Customizations - Slide preview on 1250px+ screens
+--------------------------------------------------------------*/
+@media (min-width: 992px) {
+    .splide__pagination li {
+        display: block;
+        width: 100%;
+    }
+
+    .splide__progress {
+        display: none;
+    }
+
+    .splide__custom-navigation {
+        display: none;
+    }
+
+    .splide__pagination__page {
+        opacity: 0.3 !important;
+    }
+
+    .splide__pagination__page.is-active {
+        opacity: 1 !important;
+    }
+
+    ul.splide__pagination.splide__pagination--custom {
+        position: absolute;
+        right: 10%;
+        left: unset;
+        width: 300px;
+        top: 100px;
+        color: #fff;
+        flex-direction: column;
+        gap: 48px;
+        right: calc(50% - 570px);
+    }
+
+    ul.splide__pagination.splide__pagination--custom .splide__pagination__page {
+        width: 100%;
+        background: none;
+        height: unset;
+        border-radius: 0;
+        max-width: 219px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slide-preview-text {
+        text-align: left;
+        color: #fff;
+        display: -webkit-box;
+        font-size: 1.125em;
+        line-height: 23.4px;
+        letter-spacing: -0.72px;
+    }
+
+    .slide-tiny-heading {
+        display: -webkit-box;
+    }
+
+    button.splide__pagination__page.is-active {
+        transform: none;
+        opacity: 1;
+    }
+
+    /* Make a progress bar out of pseudo elements :D */
+    ul.splide__pagination.splide__pagination--custom button {
+        position: relative;
+    }
+
+    ul.splide__pagination.splide__pagination--custom button:before,
+    ul.splide__pagination.splide__pagination--custom button:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: -10px;
+        height: 100%;
+        background-color: rgba(255, 255, 255, .2);
+        width: 2px;
+        top: 0;
+    }
+
+    ul.splide__pagination.splide__pagination--custom button:after {
+        transform: scaleY(0);
+        transform-origin: bottom;
+        transition: transform 1s cubic-bezier(.4, 0, .1, 1);
+    }
+
+    .init-slide ul.splide__pagination.splide__pagination--custom button.is-active:after {
+        transition: transform 7.95s linear;
+        transform: scaleY(1);
+        transform-origin: top;
+        background-color: #fff !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .splide__pagination {
+        display: none !important;
+    }
+
+    .splide__track {
+        position: relative;
+    }
+
+    .splide__progress {
+        position: absolute;
+        width: 100%;
+        bottom: 73px;
+        z-index: 999999;
+        padding-inline: 24px;
+    }
+
+    .splide__custom-navigation {
+        bottom: 104px !important;
+    }
+
+    .splide__custom-prev,
+    .splide__custom-next {
+        color: var(--textColor);
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: -0.28px;
+        background: none;
+        border: none;
+    }
+}
+
+/*--------------------------------------------------------------
+## Splide Heading Animation
+--------------------------------------------------------------*/
+.splide h1 span,
+.splide h2 span,
+.splide h3 span {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    line-height: 1.2;
+}
+
+.splide h1 .word,
+.splide h2 .word,
+.splide h3 .word {
+    transition: transform 1.3s cubic-bezier(0.25, 1, 0.5, 1),
+        opacity 1.3s cubic-bezier(0.25, 1, 0.5, 1);
+    -webkit-transform: translateY(1.3em);
+    transform: translateY(1.3em);
+}
+
+.splide__slide.is-active.is-visible .word {
+    transform: translateY(0em);
+    opacity: 1;
+}
+
+/*--------------------------------------------------------------
+## Splide Paragraph + Button Animation
+--------------------------------------------------------------*/
+
+
+@keyframes subtle-fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(1em);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*--------------------------------------------------------------
+ # Fade height / CLS issue fix attempt.
+--------------------------------------------------------------*/
+.carousel-apply-tweak .splide__track--fade>.splide__list,
+.carousel-apply-tweak.splide--fade>.splide__track>.splide__list {
+    display: flex;
+    align-items: stretch;
+}
+
+.carousel-apply-tweak .splide__track--fade>.splide__list>.splide__slide,
+.carousel-apply-tweak.splide--fade>.splide__track>.splide__list>.splide__slide {
+    position: relative;
+    height: auto;
+}
+
+/*--------------------------------------------------------------
+ # Unset height demo
+--------------------------------------------------------------*/
+.carousel-unset-height .wp-block-cover {
+    min-height: unset !important;
+}
+
+/*--------------------------------------------------------------
+ # Misc. - Snackbar
+--------------------------------------------------------------*/
+div#snackbar-holder {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.snackbar {
+    background: #191a1c;
+    margin: 0.25em 0.5em;
+    padding: 0.5em 1.5em;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    align-self: self-start;
+    font-size: .9rem;
+    transform: translateY(70px);
+    opacity: 0;
+    transition: .3s;
+    transition-timing-function: linear;
+}
+
+.snackbar.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.snackbar.dismiss {
+    transition: .6s;
+    transform: translateY(70px);
+    opacity: 0;
+}
+
+/*--------------------------------------------------------------
+ # Accessibility - No Animation
+--------------------------------------------------------------*/
+@media (prefers-reduced-motion: reduce) {
+
+    /* Hide progress bars on less motion */
+    .init-slide ul.splide__pagination.splide__pagination--custom button.is-active:after,
+    ul.splide__pagination.splide__pagination--custom button:before {
+        display: none;
+    }
+
+    .splide__slide.is-active.is-visible p,
+    .splide__slide.is-active.is-visible .wp-block-button {
+        animation: none;
+        opacity: 1;
+    }
+
+    .splide h1 .word,
+    .splide h2 .word,
+    .splide h3 .word,
+    .splide__slide.is-active.is-visible .word {
+        transform: translateY(0em);
+        opacity: 1;
+    }
+}
+
+/**
+ * _navigation-critical.css
+ * critical styles
+ */
+
+#{$navSubMenu} {
+    display: grid;
+    background: #fff;
+    padding: 24px;
+    gap: 24px;
+    list-style: none;
+
+    transition: height $transition, padding $transition, margin $transition;
+}
+
+.n-nav__link:not(.active)+#{$navSubMenu} {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.n-nav__link:not(.active)>#{$navigationMenu}__arrow {
+    transform: rotate(180deg);
+}
+
+#{$navigation} {
+    background: #fff;
+    top: var(--wp-admin--admin-bar--height, 0);
+
+    &__left {
+        gap: 64px;
+    }
+
+    &__right {
+        gap: 24px;
+    }
+
+    &__arrow {
+        transition: transform 0.1s ease;
+        top: 2px;
+    }
+
+    &__c {
+        // padding-block: 24px;
+        gap: 24px;
+    }
+}
+
+#{$navHamburger} {
+    .middle {
+        transform-origin: 50%;
+    }
+
+    .bottom {
+        transform-origin: 50%;
+    }
+}
+
+#{$navigationMenu} {
+    &__ul {
+        list-style: none;
+    }
+
+    &__link {
+        font-size: 1.1em;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: -0.28px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        @media (max-width: 1024px) {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 23.4px;
+            letter-spacing: -0.72px;
+
+            &--1 {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 21px;
+                /* 150% */
+                letter-spacing: -0.28px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    #{$navSubMenu} {
+        border-left: 1px solid var(--secondary-400);
+        padding-block: 0;
+        margin-block: 24px;
+    }
+}
+
+@media (min-width: 1025px) {
+    #{$navHamburger}--wr {
+        display: none;
+    }
+
+    #{$navSubMenu} {
+        position: absolute;
+        min-width: 267px;
+    }
+
+    #{$navigationMenu} {
+        opacity: 1;
+        visibility: visible;
+        position: static;
+
+        &,
+        &__ul {
+            flex-direction: row;
+        }
+
+        &__ul {
+            list-style: none;
+            gap: 48px;
+            padding-block: 10px;
+        }
+    }
+}
+
+@media (min-width: 1199px) {
+    #{$navigation} {
+        &__right {
+            display: flex;
+        }
+
+        &__left {
+            justify-content: start;
+        }
+    }
+}

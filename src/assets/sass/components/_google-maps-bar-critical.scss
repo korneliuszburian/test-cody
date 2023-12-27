@@ -1,0 +1,22 @@
+/**
+ * _google-maps-bar-critical.css
+ * critical
+ */
+
+#{$googleMapBar} {
+  &__wr {
+    margin-top: 50px;
+    gap: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #{$googleMapBar}__wr {
+    --colStart: 2;
+    --colSize: 10;
+
+    flex-direction: row;
+    padding: 25px 50px;
+    gap: 35px;
+  }
+}

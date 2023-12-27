@@ -1,0 +1,262 @@
+/**
+ * _global-critical.css
+ * critical global styles
+ */
+
+@import "../../css/normalize-css-8.0.1/normalize-rekurencja";
+
+:root {
+    --defColor: #{$defaultColor};
+    --altColor: #{$alternativeColor};
+    --whiteColor: #{$whiteColor};
+    --blackColor: #{$blackColor};
+    --grayColor: #{$grayColor};
+    --textColor: #{$textColor};
+    --headingColor: #{$headingColor};
+    --altHeadingColor: #{$alternativeHeadingColor};
+    --transition: #{$transition};
+    --base-font-size: #{$baseFontSize};
+    --caption-font-scale: #{$captionFontScale};
+}
+
+.contrast {
+    --defColor: #{$primaryContrastColor};
+    --altColor: #{$secondaryContrastColor};
+    --whiteColor: #{$backgroundContrastColor};
+    --blackColor: #{$textContrastColor};
+    --grayColor: #{$borderContrastColor};
+    --textColor: #{$textContrastColor};
+    --headingColor: #{$headingContrastColor};
+    --altHeadingColor: #{$headingContrastColor};
+    --transition: #{$transition};
+    --base-font-size: #{$baseFontSize};
+    --caption-font-scale: #{$captionFontScale};
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+html {
+    scroll-padding-top: calc(var(--navHeight, 87px) + var(--wp-admin--admin-bar--height, 0px)) !important;
+}
+
+/* stop scrolling */
+#{$stopScrolling},
+#{$stopScrolling} #{$navigation} {
+    padding-right: var(--scrollbar-width, 16px);
+}
+
+.caption {
+    font-size: calc(var(--base-font-size) * var(--caption-font-scale));
+}
+
+.c {
+    --gap: clamp(1rem, 6vw, 3rem);
+    --content-max-width: 1140px;
+    --breakout-max-width: 1360px;
+    --breakout-size: calc((var(--breakout-max-width) - var(--content-max-width)) / 2);
+
+    grid-template-columns:
+        [full-start] 1fr [breakout-start] minmax(0, var(--breakout-size)) [content-start] min(var(--content-max-width), calc(100% - var(--gap) * 2)) [content-end] minmax(0, var(--breakout-size)) [breakout-end] 1fr [full-end];
+}
+
+.c>* {
+    grid-column: content;
+}
+
+.c>.breakout {
+    grid-column: breakout-start / breakout-end;
+}
+
+.c>.breakout-dynamic {
+    @media (max-width: 992px) {
+        grid-column: content;
+    }
+}
+
+.c--full-hd {
+    max-width: 1920px;
+}
+
+.c--full {
+    grid-column: full;
+}
+
+.grid {
+    gap: 30px 24px;
+}
+
+@media (min-width: 400px) {
+    .grid {
+        --cols: 2;
+        --gtc: repeat(var(--cols), 1fr);
+        grid-template-columns: var(--gtc);
+
+        &>* {
+            grid-column: var(--colStart, 1) / span var(--colSize, var(--cols));
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .grid {
+        --cols: 4;
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        --cols: 12;
+    }
+}
+
+.wrapper {
+    padding-block: clamp(80px, 15vw, 150px);
+
+    &__c {
+        gap: 30px;
+    }
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.pos-fix {
+    position: fixed;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-auto {
+    margin-block: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.t-r {
+    text-align: right;
+}
+
+.t-c {
+    text-align: center;
+}
+
+.t-lo {
+    text-transform: lowercase;
+}
+
+// .flex-row { flex-direction: row; }
+
+.f-c {
+    flex-direction: column;
+}
+
+.f-w {
+    flex-wrap: wrap;
+}
+
+.jcs {
+    justify-content: flex-start;
+}
+
+.jce {
+    justify-content: flex-end;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.ais {
+    align-items: start;
+}
+
+.afs {
+    align-items: flex-start;
+}
+
+.aib {
+    align-items: baseline;
+}
+
+.aie {
+    align-items: end;
+}
+
+.aic {
+    align-items: center;
+}
+
+.pic {
+    place-items: center;
+}
+
+.pcc {
+    place-content: center;
+}
+
+@each $name, $value in $line-height {
+    .l-#{$name} {
+        line-height: $value;
+    }
+}
+
+@each $name, $value in $font-weight {
+    .f-#{$name} {
+        font-weight: $value;
+    }
+}
+
+@each $value in $display {
+    .d-#{$value} {
+        display: #{$value};
+    }
+}
+
+@each $name, $value in $font-family {
+    .f-#{$name} {
+        font-family: $value;
+    }
+}
+
+@each $name, $value in $color {
+    .c-#{$name} {
+        color: $value;
+    }
+}

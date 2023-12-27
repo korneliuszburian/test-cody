@@ -1,0 +1,15 @@
+#{$about} {
+    padding-block: 74px;
+
+    &__i {
+        padding-block: 48px;
+    }
+
+    .splide__arrows {
+        display: none;
+
+        @media (max-width: 1024px) {
+            display: block;
+        }
+    }
+}

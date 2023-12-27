@@ -1,0 +1,31 @@
+#{$hero} {
+    &__buttons {
+        display: none;
+
+        @media (max-width: 1024px) {
+            position: absolute;
+            display: flex;
+            bottom: -25px;
+            gap: 24px;
+            padding-inline: 24px;
+            width: 100%;
+        }
+    }
+
+    .init-slide .splide__slide p,
+    .init-slide .splide__slide .wp-block-button {
+        opacity: 0;
+    }
+
+    .splide__slide.is-active.is-visible p,
+    .splide__slide.is-active.is-visible .wp-block-button {
+        animation-name: subtle-fade-up;
+        animation-duration: 0.7s;
+        animation-delay: .1s;
+        animation-fill-mode: forwards;
+    }
+
+    .splide__slide.is-active.is-visible .wp-block-button {
+        animation-delay: .3s;
+    }
+}

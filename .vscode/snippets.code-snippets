@@ -1,0 +1,42 @@
+{
+	"link_html": {
+		"scope": "html",
+		"prefix": "link",
+		"body": [
+			"<?php",
+			"$$link = Buttonable::FromLink($$link_data['link']);",
+			"echo \"<$$link->tag class='' {$$link->GetLinkAttributes()}>{$$link->label}</$$link->tag>\";",
+			"?>"
+		],
+		"description": "Print link"
+	},
+	"link_php": {
+		"scope": "php",
+		"prefix": "link",
+		"body": [
+			"$$link = Buttonable::FromLink($$link_data['link']);",
+			"echo \"<$$link->tag class='' {$$link->GetLinkAttributes()}>{$$link->label}</$$link->tag>\";"
+		],
+		"description": "Print link"
+	},
+	"button_html": {
+		"scope": "html",
+		"prefix": "button",
+		"body": [
+			"<?php",
+			"$$button = Buttonable::FromButton($$button_data['button']);",
+			"echo \"<{$$button->tag} class='{$$button->GetButtonClasses()}' {$$button->GetLinkAttributes()}><span class='btn__label'>{$$button->label}</span></{$$button->tag}>\";",
+			"?>"
+		],
+		"description": "Print button"
+	},
+	"button_php": {
+		"scope": "php",
+		"prefix": "button",
+		"body": [
+			"$$button = Buttonable::FromButton($$button_data['button']);",
+			"echo \"<{$$button->tag} class='{$$button->GetButtonClasses()}' {$$button->GetLinkAttributes()}><span class='btn__label'>{$$button->label}</span></{$$button->tag}>\";"
+		],
+		"description": "Print button"
+	}
+}
